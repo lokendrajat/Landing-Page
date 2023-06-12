@@ -1,0 +1,244 @@
+.header{
+    background-color: #f7f7f7;
+    padding: 5px 0px 5px 0px;
+}
+.na{
+    padding: 10px 0px 10px 0px;
+}
+.na p{
+    font-size: 14px;
+     
+}
+.na img{
+    width:auto;
+    height:45px;
+}
+.na button{
+    color:white;
+    background-color: #00bad0;
+    float:right;
+    border: none;
+    padding: 3px 5px 3px 5px;
+}
+.navb{
+    background-color: #00bad0;
+    color:white;
+    /* padding: 3px 0px 3px 0px; */
+}
+.navb .navbar{
+    padding: 0;
+}
+.navb .dropdown-menu{
+    border: none;
+    /* background: none; */
+    box-sizing:none;
+}
+.navb li{
+    padding-right: 15px;
+}
+.navb .sicon{
+    font-size: 20px;
+    background-color:#05cfe6;
+    padding: 15px;
+}
+.main{
+    background-image: url(./sliderone.jpg);
+    width:auto;
+    height:420px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 35px 0px 35px 0px;
+}
+.main h2{
+    font-weight: bolder;
+    text-shadow:0.5px 1px 1.5px black;
+    letter-spacing: 1px;
+    font-size: 43px;
+}
+.main p{
+    color:gray;
+}
+.main button{
+    background-color:#67dce96e;
+    border: 2px solid #00bad0;
+    padding: 10px 20px 10px 20px;
+    border-radius:30px;
+}
+.stay{
+    padding:60px 0px 20px 0px;
+}
+.stay .stay-child{
+    text-align: center;
+}
+.stay .stay-child2 img{
+    width:50px;
+    height:50px;
+
+}
+.stay-child .owl-carousel .owl-items img{
+    width:0;
+    height:0;
+}
+.stay .stay-child h2{
+     font-weight: bold;
+     text-shadow:0.7px 1px 1px rgba(0, 0, 0, 0.829);
+}
+.stay .stay-child p{
+     color:gray
+}
+.stay .stay-child2 img{
+    width:50px !important;
+}
+.stay-child2 .owl-dots {
+    text-align: center;
+    padding-top: 15px;
+  }
+  .stay-child2 .owl-dots button.owl-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    background:gray;
+    margin: 0 3px;
+  }
+  .stay-child2 .owl-dots button.owl-dot.active {
+    background-color:#00bad0;
+  }
+  .stay-child2 .owl-dots button.owl-dot:focus {
+    outline: none;
+  }
+.about{
+    padding:45px 0px 45px 0px;
+}
+.about .about-child2{
+     background-color: #f0f9fa;
+     border:1.5px dotted #00bad0;
+}
+.about .about-child2 input{
+     border: none;
+     margin-top: 15px;
+}
+.about .about-child2 textarea{
+    border: none;
+    margin-top: 15px;
+}
+.about .about-child2 button{
+    margin-top: 15px;
+    border:none;
+    background-color: #00bad0;
+    color:white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.about .accordion{
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+.subscribe{
+    width:auto;
+    height:auto;
+    background-color: #00bad0;
+    color:white;
+    padding: 30px 0px 30px 0px;
+    text-align: center;
+}
+.subscribe p{
+    font-size: 30px;
+    font-weight: bolder;
+    float: left;
+}
+.subscribe button{
+     border:2px solid #a3dbdedc;
+     color:white;
+     font-weight: bold;
+     background-color: #0084d0;
+     padding: 10px 20px 10px 20px;
+     border-radius: 30px;
+     float: right;
+}
+.footer{
+    background-color: #181d31;  
+    color:white;    
+    padding:30px 0px 30px 0px;
+}
+.footer p{
+    color: gray;
+}
+.footer ul li{
+    padding-top: 5px;
+    color:gray;
+}
+.footer ul {
+    list-style: none;
+}
+@media (max-width:1199px){
+    .navb .sicon{
+         background-color:#00bad0 ;
+         padding: 0;
+    }
+
+    .main{
+        width:auto;
+        height:-webkit-fill-available;
+    }
+    .main h2{
+        font-size: 38px;
+    }
+    .subscribe p{
+        text-align: center;
+   }
+   .subscribe button{
+      text-align: center;
+      float: none;
+   }
+   .subscribe{
+       width:auto;
+       height:-webkit-fill-available;
+      
+   }
+}
+
+@media (max-width:768px) {
+    .header{
+       display: none;
+    }
+    .na{
+        text-align: center;
+    }
+    .na button{
+        float: unset;
+    }
+    .navb .sicon{
+        background-color:#00bad0 ;
+        padding: 0;
+   }
+    .main{
+        width:auto;
+        height:-webkit-fill-available;
+    }
+    .main h2{
+        font-size: 32px;
+    }
+   
+}
+@media (max-width:479px) {
+    .na img{
+        width:auto;
+        height:30px;
+    }
+    .navb .sicon{
+        background-color:#00bad0 ;
+        padding: 0;
+   }
+    .subscribe button{
+        text-align: center;
+         margin: 0;
+         float: none;
+     }
+     .main h2{
+        font-size: 25px;
+    }
+}
